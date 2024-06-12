@@ -8,8 +8,8 @@ export default function Nav() {
         //destructure item
         const { href, name } = item
         return (
-          <li key={index}>
-            <a className='text-sm text-blue-500 hover:text-blue-600 no-underline' href={href}>
+          <li key={index} className="">
+            <a className='text-xl font-bold text-slate-500 hover:text-slate-600 ' href={href}>
               {name}
             </a>
           </li>
