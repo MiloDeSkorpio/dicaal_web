@@ -15,7 +15,7 @@ export default function Layout() {
   // header state
   const [isActive, setisActive] = useState(false);
   //destructure header data
-  const { logo, btnText } = header
+  const { logo } = header
   //scroll event 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -26,8 +26,8 @@ export default function Layout() {
     <>
       <header
         className={`
-            ${isActive ? 'bg-white shadow-2xl' : 'lg:top-[60px]'}
-              py-6 lg:py-2 fixed w-full transition-all z-10
+            ${isActive ? 'shadow-2xl' : 'lg:top-[0px]'}
+              py-6 bg-[rgba(255,255,255,0.73)] lg:py-1 fixed w-full backdrop-blur-sm back
             `}
       >
         <div className='container mx-auto flex justify-between items-center'>
@@ -52,14 +52,7 @@ export default function Layout() {
             <Nav />
           </div>
          
-          <a
-            className='btn btn-sm btn-outline hidden lg:flex'
-            data-aos='fade-down'
-            data-aos-delay='1400'
-            href='#contacto'
-          >
-            {btnText}
-          </a>
+
           
           <button className='lg:hidden' aria-label="mobile nav" onClick={() => {
             setMovileNav(!mobileNav)
@@ -76,7 +69,7 @@ export default function Layout() {
               ${mobileNav
                 ? 'left-0'
                 : '-left-full'}
-              fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-blue-500    
+              fixed top-0 bottom-0 w-[60vw] lg:hidden bg-blue-500    
            `}
           >
             <MobileNav />
