@@ -31,7 +31,7 @@ export default function Layout() {
             <img
               src={logo}
               alt='logo'
-              className='w-40 h-28 m-0'
+              className='w-full h-12 m-0'
             />
           </a>
           
