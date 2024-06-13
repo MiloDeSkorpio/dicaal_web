@@ -3,13 +3,13 @@ import Button from "./components/Button"
 
 export default function Home() {
   const { feature1, feature2, feature3 } = homeFeatures
-  const { cards, title } = homeCards
+  // const { cards, title } = homeCards
   return (
     <div>
       <div className="feature1 ">
-        <div className="m-auto w-full bg-[rgba(0,0,0,0.3)] space-y-8 mt-[140px] min-h-[770px]  flex flex-col items-center justify-center">
-          <h1 className="text-white text-6xl font-black" >{feature1.title}</h1>
-          <h2 className="text-white text-4xl font-bold">{feature1.subtitle}</h2>
+        <div className="m-auto w-full bg-[rgba(0,0,0,0.55)] space-y-8 min-h-[770px]  flex flex-col items-center justify-center">
+          <h1 className="text-white text-6xl font-black shadow-gray-950" >{feature1.title}</h1>
+          <h2 className="text-white text-4xl font-bold shadow-gray-950">{feature1.subtitle}</h2>
           <Button href={feature1.btnLink} name={feature1.btnName} />
         </div>
       </div>
