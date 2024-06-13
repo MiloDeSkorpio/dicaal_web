@@ -1,6 +1,6 @@
 // import images
 import LogoImg from './assets/header/DICAAL_black.png'
-import Feature3Img from '../src/assets/home/hom_proyectos.webp';
+import Feature3Img from '../src/assets/home/featureWhite.webp';
 // import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 // import LaboralImg from '../src/assets/img/pricing/work.svg'
 // import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
