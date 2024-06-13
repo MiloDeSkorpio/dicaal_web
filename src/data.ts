@@ -1,9 +1,6 @@
 // import images
-import LogoImg from './assets/header/DICAL.webp'
-// import HeroImg from '../src/assets/img/hero/image.svg';
-// import Feature1Img from '../src/assets/img/features/feature1-img.svg';
-// import Feature2Img from '../src/assets/img/features/feature2-img.svg';
-// import Feature3Img from '../src/assets/img/features/feature3-img.svg';
+import LogoImg from './assets/header/DICAAL_black.png'
+import Feature3Img from '../src/assets/home/hom_proyectos.webp';
 // import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 // import LaboralImg from '../src/assets/img/pricing/work.svg'
 // import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
@@ -23,30 +20,31 @@ export const nav = [
   
 ];
 
-
 export const homeFeatures = {
   feature1: {
     title: 'Ilumina tus interiores',
     subtitle:
       'Arquitectura de Aluminio',
-    btnLink: 'Contactenos',
-    // image: Feature1Img,
+    btnLink: '/contactanos',
+    btnName: 'Contactenos',
+
   },
   feature2: {
     title: '¿Quienes somos?',
     textContent:
-      'Somos una empresa especialista con más de 10 años de experiencia ofreciendo soluciones arquitectónicas de aluminio y vidfrio para todo tipo de proyectos hecho a la medida de sus necesidades. Nuestro portafolio ofrece una amplia gama de servicios en ventanas de lineas: nacionales, europea y española.',
+      'Somos una empresa especialista con más de 10 años de experiencia ofreciendo soluciones arquitectónicas de aluminio y vidrio para todo tipo de proyectos hecho a la medida de sus necesidades. Nuestro portafolio ofrece una amplia gama de servicios en ventanas de lineas: nacionales, europea y española.',
     textContent2: 'Desarrollamos trabajos en vidrio templado vidrio laminado (doble) y peliculas de seguridad, ademas de contar con canceleria para oficinas y accesos, canceleria comercial, canceleria para baños, techos, domos, barandales y pergolas. Contamos con el quipo para trabajar en obras de alto nivel.',
-    btnLink: 'Conoce más de nosotros',
+    btnLink: '/nosotros',
+    btnName: 'Conoce más de nosotros',
     // image: Feature2Img,
   },
   feature3: {
     title: 'Proyectos Personalizados',
     textContent:
       'En DICAAL diseñamos proyectos personalizados en aluminio y vidrio que no solo son funcionales, si no tambien esteticamente atractivas y duraderas para tu espacio.',
-    btnLink1: 'Conoce más de nuestros proyectos',
-
-    // image: Feature3Img,
+    btnLink: '/nuestros-proyectos',
+    btnName: 'Conoce más de nuestros proyectos',
+    image: Feature3Img,
   },
   feature4: {
     // Despues de Area de Actuacion

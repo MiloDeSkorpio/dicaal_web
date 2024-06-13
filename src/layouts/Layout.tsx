@@ -12,23 +12,14 @@ import Nav from '../views/components/Nav'
 export default function Layout() {
 
   const [mobileNav, setMovileNav] = useState(false);
-  // header state
-  const [isActive, setisActive] = useState(false);
   //destructure header data
   const { logo } = header
-  //scroll event 
-  useEffect(() => {
-    window.addEventListener('scroll', () => {
-      window.scrollY > 60 ? setisActive(true) : setisActive(false)
-    })
-  })
+
   return (
     <>
       <header
-        className={`
-            ${isActive ? 'shadow-2xl' : 'lg:top-[0px]'}
-              py-6 bg-[rgba(255,255,255,0.73)] lg:py-1 fixed w-full backdrop-blur-sm back
-            `}
+        className='
+               lg:top-[0px] shadow py-6 bg-[rgba(255,255,255,0.73)] lg:py-1 fixed z-10 w-full backdrop-blur-sm back'
       >
         <div className='container mx-auto flex justify-between items-center'>
           
@@ -51,9 +42,6 @@ export default function Layout() {
           >
             <Nav />
           </div>
-         
-
-          
           <button className='lg:hidden' aria-label="mobile nav" onClick={() => {
             setMovileNav(!mobileNav)
           }}>
@@ -76,7 +64,9 @@ export default function Layout() {
           </div>
         </div>
       </header>
-      <Outlet />
+      <main>  
+        <Outlet />
+      </main>
     </>
   )
 }
