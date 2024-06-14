@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom"
-import { useState, useEffect } from 'react';
+import { useState,  } from 'react';
 
 //import data
 import { header } from '../data'
@@ -46,25 +46,25 @@ export default function Layout() {
             setMovileNav(!mobileNav)
           }}>
             {mobileNav ? (
-              <HiOutlineX className='text-3xl text-blue-700' />
+              <HiOutlineX className='text-3xl text-[#030b31]' />
             ) : (
-              <HiMenuAlt4 className='text-3xl text-blue-700' />
+              <HiMenuAlt4 className='text-3xl text-[#030b31]' />
             )}
           </button>
           
+        </div>
+      </header>
+      <main >  
           <div
             className={`
               ${mobileNav
                 ? 'left-0'
                 : '-left-full'}
-              fixed top-0 bottom-0 w-[60vw] lg:hidden bg-blue-500    
+               bottom-0 w-[100vh] fixed z-20 top-0 lg:hidden     
            `}
           >
             <MobileNav />
           </div>
-        </div>
-      </header>
-      <main>  
         <Outlet />
       </main>
     </>
