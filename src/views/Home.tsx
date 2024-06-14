@@ -1,9 +1,10 @@
 import { homeFeatures, homeCards } from "../data"
 import Button from "./components/Button"
+import Card from "./components/Card"
 
 export default function Home() {
   const { feature1, feature2, feature3 } = homeFeatures
-  // const { cards, title } = homeCards
+  const { cards} = homeCards
   return (
     <div>
       <div className="feature1 ">
@@ -24,7 +25,9 @@ export default function Home() {
         <div className="proyectos w-1/3 flex flex-col items-center p-10">
           <h1 className="mt-10 text-6xl text-white">{feature3.title}</h1>
           <p className="mt-5 mb-20 leading-normal text-xl">{feature3.textContent}</p>
+          <div className="w-full ">
           <Button href={feature3.btnLink} name={feature3.btnName} />
+          </div>
         </div>
       </div>
       {/* Area de Actuacion */}
@@ -33,7 +36,12 @@ export default function Home() {
         <h1 className="mt-10 text-2xl text-gray">{homeCards.title}</h1>
         <hr className="border-[1px] border-gray-400"/>
         {/* Card */}
-        
+        <Card 
+          src={cards[0].img}
+          alt={cards[0].alt}
+          title={cards[0].title}
+          text={cards[0].text}
+        />
         <div>
           <img src="" alt="" />
           <h3></h3>
