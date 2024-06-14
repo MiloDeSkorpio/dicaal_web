@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom"
 import { useState,  } from 'react';
 
 //import data
-import { header } from '../data'
+import { header, footer } from '../data'
 //import icons
 import { HiMenuAlt4, HiOutlineX } from 'react-icons/hi'
 //import components
@@ -14,7 +14,7 @@ export default function Layout() {
   const [mobileNav, setMovileNav] = useState(false);
   //destructure header data
   const { logo } = header
-
+  const { contacto,dir } = footer
   return (
     <>
       <header
@@ -67,6 +67,15 @@ export default function Layout() {
           </div>
         <Outlet />
       </main>
+      <footer className=" flex items-center justify-center mt-20">
+        <div>
+          <img src={footer.logo} alt="" className="w-56" />
+        </div>
+        <div className="text-white">
+          <p>{dir}</p>
+          <p>{contacto}</p>
+        </div>
+      </footer>
     </>
   )
 }

@@ -1,6 +1,8 @@
 // import images
 import LogoImg from './assets/header/DICAAL_black.png'
+import LogoImgF from './assets/header/Logo Final DICAAL png-03.webp'
 import Feature3Img from '../src/assets/home/featureWhite.webp';
+import imgC1 from '../src/assets/home/negocio.webp'
 // import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 // import LaboralImg from '../src/assets/img/pricing/work.svg'
 // import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
@@ -114,19 +116,22 @@ export const homeCards = {
   // img: ContableImg,
   cards: [
     {
-      // img: img,
+      img: imgC1,
       title: 'Comercios',
-      text: 'El aluminio y el vidrio son materiales que aportan una apariencia sofisticada y elegante a tu negocio. Su combinacion puede crear una imagen moderna y atractiva que atraiga a los clientes y refleja la vision de tu marca.'
+      text: 'El aluminio y el vidrio son materiales que aportan una apariencia sofisticada y elegante a tu negocio. Su combinacion puede crear una imagen moderna y atractiva que atraiga a los clientes y refleja la vision de tu marca.',
+      alt: 'ImgComercios'
     },
     {
       // img: img,
       title: 'Oficinas',
-      text: 'Transformamos tu espacio de trabajo con la combinacion perfecta de elegancia y modernidad, da un toque de distincion con nuestros canceles de aluminio y vidrio.'
+      text: 'Transformamos tu espacio de trabajo con la combinacion perfecta de elegancia y modernidad, da un toque de distincion con nuestros canceles de aluminio y vidrio.',
+      alt: 'ImgOficinas'
     },
     {
       // img: img,
       title: 'Hogar',
-      text: 'Nos especialozamos en crear un espacio innovador y acogedor para tu hogar desde ventaans hasta domos para brindar una mayor luminocidad en cada rincon.'
+      text: 'Nos especialozamos en crear un espacio innovador y acogedor para tu hogar desde ventaans hasta domos para brindar una mayor luminocidad en cada rincon.',
+      alt: 'ImgHogar'
     },
 
 
@@ -157,18 +162,13 @@ export const nostros = {
   ],
 };
 
-// export const footer = {
-//   logo: LogoImg,
-//   form: {
-//     ph1: 'Pedro López',
-//     ph2: 'pedro.lopez@correo.es',
-//     ph3: 'Cotizacion',
-//     ph4: 'Requiero informes sobre...',
-//     btnText: 'Enviar',
-//     smallText: 'Recuerda revisar tus datos!',
-//     logo: ContactImg
-//   },
-// };
+export const footer = {
+  logo: LogoImgF,
+    dir: 'Mariano Zuñiga 113,Col.Hipico,Metepec, Estado de México',
+    contacto: 'Tel.(720)296 4731 | dicaal.mx@gmail.com',
+    
+
+};
 
 // export const copyright = {
 //   link: {
