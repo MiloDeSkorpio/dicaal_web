@@ -19,7 +19,7 @@ export default function Layout() {
     <>
       <header
         className='
-               lg:top-[0px] shadow py-6 bg-[rgba(255,255,255,0.73)] lg:py-1 fixed z-10 w-full backdrop-blur-sm back'
+               lg:top-[0px] shadow p-2 bg-[rgba(255,255,255,0.73)] lg:py-1 fixed z-10 w-full backdrop-blur-sm back'
       >
         <div className='container mx-auto flex justify-between items-center'>
           
@@ -59,8 +59,8 @@ export default function Layout() {
             className={`
               ${mobileNav
                 ? 'left-0'
-                : '-left-full'}
-               bottom-0 w-[100vh] fixed z-20 top-0 lg:hidden     
+                : 'hidden '}
+               bottom-0 w-[100vh] fixed z-20 top-16 lg:hidden     
            `}
           >
             <MobileNav />
