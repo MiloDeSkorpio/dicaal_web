@@ -1,8 +1,10 @@
 // import images
 import LogoImg from './assets/header/DICAAL_black.png'
 import LogoImgF from './assets/header/Logo Final DICAAL png-03.webp'
-import Feature3Img from '../src/assets/home/featureWhite.webp';
+import Feature3Img from '../src/assets/home/hom_proyectos.webp';
 import imgC1 from '../src/assets/home/negocio.webp'
+import imgC2 from '../src/assets/home/hom_proyectos.webp'
+import imgC3 from '../src/assets/home/Hogar.webp'
 // import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 // import LaboralImg from '../src/assets/img/pricing/work.svg'
 // import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
@@ -122,13 +124,13 @@ export const homeCards = {
       alt: 'ImgComercios'
     },
     {
-      // img: img,
+      img: imgC2,
       title: 'Oficinas',
       text: 'Transformamos tu espacio de trabajo con la combinacion perfecta de elegancia y modernidad, da un toque de distincion con nuestros canceles de aluminio y vidrio.',
       alt: 'ImgOficinas'
     },
     {
-      // img: img,
+      img: imgC3,
       title: 'Hogar',
       text: 'Nos especialozamos en crear un espacio innovador y acogedor para tu hogar desde ventaans hasta domos para brindar una mayor luminocidad en cada rincon.',
       alt: 'ImgHogar'
