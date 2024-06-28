@@ -1,7 +1,7 @@
 
 export default function Card( params: {src: any; title: string; text: string; alt: string;}) {
     return (
-      <div className="flex-1 w-auto h-auto shadow-xl rounded border-[1px] bg-white m-5">
+      <div className="flex-1 w-auto h-auto shadow-xl rounded-md bg-white m-5 overflow-hidden ">
             <div>
                 <img className="w-full" src={params.src} alt={params.alt} />
             </div>
