@@ -14,7 +14,7 @@ export default function Layout() {
   const [mobileNav, setMovileNav] = useState(false);
   //destructure header data
   const { logo } = header
-  const { contacto,dir } = footer
+  const { logoF,contacto,dir,ico1,ico2} = footer
   return (
     <>
       <header
@@ -67,13 +67,24 @@ export default function Layout() {
           </div>
         <Outlet />
       </main>
-      <footer className=" flex items-center justify-center mt-20">
-        <div>
-          <img src={footer.logo} alt="" className="w-56" />
+      <footer className="flex flex-col p-2 lg:flex-row space-y-4 justify-center items-center lg:justify-between">
+        <div className="mt-2">
+          <img src={logoF} alt="" className="h-56 w-auto" />
         </div>
-        <div className="text-white">
+        <div className="text-white p-3">
           <p>{dir}</p>
           <p>{contacto}</p>
+        </div>
+        <div>
+          <p className="text-white p-3">Nuestras Redes Sociales</p>
+          <div className="flex justify-center items-center gap-2">
+            <a href="https://www.facebook.com/people/DICAAL/61553810441591/">
+            <img src={ico1} alt="" />
+            </a>
+            <a href="https://www.instagram.com/dicaal.mx/">
+            <img src={ico2} alt="" />
+            </a>
+          </div>
         </div>
       </footer>
     </>
