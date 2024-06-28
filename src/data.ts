@@ -1,6 +1,5 @@
 // import images
 import LogoImg from './assets/header/DICAAL_black.png'
-import LogoImgF from './assets/header/Logo Final DICAAL png-03.webp'
 import Feature5Img from '../src/assets/home/home_cali.webp';
 import Feature6Img from '../src/assets/home/home_style.webp';
 import iconFeature5 from '../src/assets/home/check-circle.svg'
@@ -11,6 +10,10 @@ import iconFeature9 from '../src/assets/home/clock.svg'
 import imgC1 from '../src/assets/home/negocio.webp'
 import imgC2 from '../src/assets/home/hom_proyectos.webp'
 import imgC3 from '../src/assets/home/Hogar.webp'
+//footer
+import LogoImgF from './assets/footer/WhiteDicaal.webp'
+import icoFoot1 from '../src/assets/footer/facebook.svg'
+import icoFoot2 from '../src/assets/footer/instagram.svg'
 // import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 // import LaboralImg from '../src/assets/img/pricing/work.svg'
 // import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
@@ -36,7 +39,7 @@ export const homeFeatures = {
     subtitle:
       'Arquitectura de Aluminio',
     btnLink: '/contactanos',
-    btnName: 'Contactenos',
+    btnName: 'Contáctanos',
 
   },
   feature2: {
@@ -53,7 +56,7 @@ export const homeFeatures = {
     textContent:
       'En DICAAL diseñamos proyectos personalizados en aluminio y vidrio que no solo son funcionales, si no tambien esteticamente atractivas y duraderas para tu espacio.',
     btnLink: '/nuestros-proyectos',
-    btnName: 'Conoce más de nuestros proyectos',
+    btnName: 'Nuestros proyectos',
     cont: 'contPro w-full lg:min-h-[666px] flex mt-10',
   },
   feature4: {
@@ -176,10 +179,11 @@ export const nostros = {
 };
 
 export const footer = {
-  logo: LogoImgF,
-  dir: 'Mariano Zuñiga 113,Col.Hipico,Metepec, Estado de México',
+  logoF: LogoImgF,
+  dir: 'Mariano Zuñiga 113, Col. Hipico, Metepec, Estado de México',
   contacto: 'Tel.(720)296 4731 | dicaal.mx@gmail.com',
-
+  ico1: icoFoot1 ,
+  ico2:icoFoot2 ,
 
 };
 
