@@ -16,11 +16,11 @@ export default function Home() {
         </div>
       </div>
       {/* quienes somos */}
-      <div className="m-auto max-w-6xl space-y-8 text-center">
-        <h1 className="mt-5 text-6xl">{feature2.title}</h1>
+      <section className="container m-auto max-w-6xl space-y-8 text-center">
+        <h1 className="mt-5 text-6xl text-[#0d497f]">{feature2.title}</h1>
         <p className="leading-loose p-4 text-base lg:text-xl">{feature2.textContent} {feature2.textContent2}</p>
         <Button href={feature2.btnLink} name={feature2.btnName} />
-      </div>
+      </section>
       {/* proyectos */}
       <InfoCard
         title={feature3.title}
