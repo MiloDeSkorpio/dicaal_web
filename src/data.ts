@@ -1,7 +1,13 @@
 // import images
 import LogoImg from './assets/header/DICAAL_black.png'
 import LogoImgF from './assets/header/Logo Final DICAAL png-03.webp'
-import Feature3Img from '../src/assets/home/hom_proyectos.webp';
+import Feature5Img from '../src/assets/home/home_cali.webp';
+import Feature6Img from '../src/assets/home/home_style.webp';
+import iconFeature5 from '../src/assets/home/check-circle.svg'
+import iconFeature6 from '../src/assets/home/diamond.svg'
+import iconFeature7 from '../src/assets/home/user.svg'
+import iconFeature8 from '../src/assets/home/check.svg'
+import iconFeature9 from '../src/assets/home/clock.svg'
 import imgC1 from '../src/assets/home/negocio.webp'
 import imgC2 from '../src/assets/home/hom_proyectos.webp'
 import imgC3 from '../src/assets/home/Hogar.webp'
@@ -21,7 +27,7 @@ export const nav = [
   { name: 'Inicio', href: '/' },
   { name: 'Portafolio de Serviciós', href: '/nuestros-servicios' },
   { name: 'Herrajes', href: '/herrajes' },
-  
+
 ];
 
 export const homeFeatures = {
@@ -48,43 +54,48 @@ export const homeFeatures = {
       'En DICAAL diseñamos proyectos personalizados en aluminio y vidrio que no solo son funcionales, si no tambien esteticamente atractivas y duraderas para tu espacio.',
     btnLink: '/nuestros-proyectos',
     btnName: 'Conoce más de nuestros proyectos',
-    image: Feature3Img,
+    cont: 'contPro w-full lg:min-h-[666px] flex mt-10',
   },
   feature4: {
     // Despues de Area de Actuacion
     title: 'Aseguramos el éxito de tus proyectos.',
     textContent:
-      'Confie en DICAAL para garantizar el éxito y la excelencia en cada obra. Nuestra dedicacion y compromiso nos hacen la eleccion ideal para construtoras que buscan lo mejor en Aluminio y Vidrio.',
-    textContent2: 'Contáctenos hoy mismo y descubra por que somos su socio estrategico.',
-
-    // image: Feature3Img,
+      'Confie en DICAAL para garantizar el éxito y la excelencia en cada obra. Nuestra dedicacion y compromiso nos hacen la eleccion ideal para construtoras que buscan lo mejor en Aluminio y Vidrio.\n\n Contáctenos hoy mismo y descubra por que somos su socio estrategico.',
+    cont: 'contExi w-full lg:min-h-[666px] flex mt-10',
+    btnLink: '/contacto',
+    btnName: 'Contáctenos',
   },
   feature5: {
-    // image: Feature3Img, -- logo de paloma en circulo
+    image: Feature5Img,
+    icon: iconFeature5,
+    alt: 'imgCalidad',
+    altIco: 'iconCalidad',
     title: 'Calidad en cada detalle.',
     textContent:
       'Nuestro compromiso con la excelencia se refleja en la meticulosa seleccion de materiales en aluminio y vidrio de primera calidad, para asegurar la durabilidad, resistencia y estetica de cada pieza que creamos.',
   },
   feature6: {
-    // image: Feature3Img, -- logo de diamante
+    image: Feature6Img,
     title: 'Estilo en cada rincón',
+    icon: iconFeature6,
+    altIco: 'iconCalidad',
     textContent:
       'Nuestros barandales son la elección perfecta para darle un toque sofisticado a cada espacio. Esta imagen es la prueba de ello: un ejemplo inspirador de cómo nuestros diseños resaltan la belleza y la transparecnia en cualquier entorno',
   },
   feature7: {
-    // image: Feature3Img, -- logo de usuario en rounde cube
+    icon: iconFeature7,
     title: 'Satisfaccion de Clientes',
     textContent:
       'La satisfaccion de nuestros clientes es la maxima prioridad es por eso que nos esforzamos en ofecerle soluciones de aluminio y vidrio de la más alta calidad, respaldadas por un serrvicio excepcional.',
   },
   feature8: {
-    // image: Feature3Img, -- logo de paloma en rounde cube
+    icon: iconFeature8,
     title: 'Garantia',
     textContent:
       'Respaldamos ada uno de nuestros servicios con nuestra solida Garantia de satisfaccion total. Estamos seguros de  la calidad de nuestro trabajo lo que te ofrece una tranquilidad y confianza en cada proyecto',
   },
   feature9: {
-    // image: Feature3Img, -- logo de paloma en rounde cube
+    icon: iconFeature9,
     title: 'Tiempo de respuesta',
     textContent:
       'En DICAAL nos comprometemos a ofreceerte una respuesta rapida y soluciones inmediatas a tus necesidades.',
@@ -160,15 +171,15 @@ export const nostros = {
       p: 'En DICAAL la calidad, la innovacion y el compromiso con la satisfaccion del cliente son nuestros valores fundamentales.',
       p2: 'Descubre como podemos hacer realidad tus proyectos con excelencia y profesionalismo.'
     },
-    
+
   ],
 };
 
 export const footer = {
   logo: LogoImgF,
-    dir: 'Mariano Zuñiga 113,Col.Hipico,Metepec, Estado de México',
-    contacto: 'Tel.(720)296 4731 | dicaal.mx@gmail.com',
-    
+  dir: 'Mariano Zuñiga 113,Col.Hipico,Metepec, Estado de México',
+  contacto: 'Tel.(720)296 4731 | dicaal.mx@gmail.com',
+
 
 };
 
