@@ -40,24 +40,6 @@ export default function Home() {
         </div>
         {/* Card */}
         <div className="lg:flex w-auto bg-gray-300 py-2">
-          {/* <Card
-            src={cards[0].img}
-            alt={cards[0].alt}
-            title={cards[0].title}
-            text={cards[0].text}
-          />
-          <Card
-            src={cards[1].img}
-            alt={cards[1].alt}
-            title={cards[1].title}
-            text={cards[1].text}
-          />
-          <Card
-            src={cards[2].img}
-            alt={cards[2].alt}
-            title={cards[2].title}
-            text={cards[2].text}
-          /> */}
           {cards.map((card, index) => (
             <Card key={index} src={card.img} alt={card.alt} title={card.title} text={card.text} />
           ))}
