@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         {/* Card */}
         <div className="lg:flex w-auto bg-gray-300 py-2">
-          <Card
+          {/* <Card
             src={cards[0].img}
             alt={cards[0].alt}
             title={cards[0].title}
@@ -57,7 +57,11 @@ export default function Home() {
             alt={cards[2].alt}
             title={cards[2].title}
             text={cards[2].text}
-          />
+          /> */}
+          {cards.map((card, index) => (
+            <Card key={index} src={card.img} alt={card.alt} title={card.title} text={card.text} />
+          ))}
+
         </div>
       </div>
       {/* exito */}
@@ -70,7 +74,7 @@ export default function Home() {
       />
       {/*  */}
       <section className="mt-10">
-        <div  className="lg:flex lg:max-h-[500px]">
+        <div className="lg:flex lg:max-h-[500px]">
           <div className="h-24 md:h-36 lg:h-auto  lg:w-1/2 bg-cover overflow-hidden ">
             <img src={feature5.image} alt={feature5.alt} />
           </div>
