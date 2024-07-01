@@ -26,6 +26,9 @@ import imgSolution1 from '../src/assets/servicios/Laminado.webp'
 import imgSolution2 from '../src/assets/servicios/insulado.webp'
 import imgSolution3 from '../src/assets/servicios/Templado.webp'
 import imgSolution4 from '../src/assets/servicios/Películas.webp'
+// Herrajes
+import imgHerrajes1 from '../src/assets/herrajes/alum.webp'
+import imgHerrajes2 from '../src/assets/herrajes/vidr.webp'
 //footer
 import LogoImgF from './assets/footer/WhiteDicaal.webp'
 import icoFoot1 from '../src/assets/footer/facebook.svg'
@@ -81,7 +84,7 @@ export const homeFeatures = {
     textContent:
       'Confie en DICAAL para garantizar el éxito y la excelencia en cada obra. Nuestra dedicacion y compromiso nos hacen la eleccion ideal para construtoras que buscan lo mejor en Aluminio y Vidrio.\n\n Contáctenos hoy mismo y descubra por que somos su socio estrategico.',
     cont: 'contExi w-full lg:min-h-[666px] flex mt-10',
-    btnLink: '/contacto',
+    btnLink: '/contactanos',
     btnName: 'Contáctenos',
   },
   feature5: {
@@ -125,21 +128,26 @@ export const herrajes = {
   feature1: {
     title: 'En DICAAL ofrecemos una gran variedad de herrajes para la venta al publico.',
     text: 'En nuestra coleccion de herrajes para aluminio y vidrio, encontraras soluciones excepcionales para tus proyectos, desde bisagras y soportes hasta sistemas de sujecion y cerraduras, cada uno de nuestros productos esta diseñado para ofrecer una combinacion perfecta de rendimiento confiable y elegancia moderna.',
-    // image: Feature1Img,
+    cont: 'heroHerrajes w-full '
+
   },
   feature2: {
     title: 'Herrajes de Aluminio',
     text:
       'Ofrecemos una amplia variedad de herrajes para todo tipo de proyectos de aluminio. Nuestros productos son la eleccion perfecta para tus necesidades. Contactanos hoy para llevar tus proyectos al siguiente nivel.',
     btnLink: 'Ver Catálogo',
-    // image: Feature1Img,
+    href: '#',
+    image: imgHerrajes1,
+    alt: 'imgHerrajes1'
   },
   feature3: {
     title: 'Herrajes para vidrio',
     text:
       'Con un enfoque en la estetica, nuestris herrajespara vidrio realzan la belleza aportando un toque de estilo y sofisticación a cualquier proyecto.',
     btnLink: 'Ver Catálogo',
-    // image: Feature1Img,
+    image: imgHerrajes2,
+    href: '#',
+    alt: 'imgHerrajes1'
   },
 }
 export const servicios = {
