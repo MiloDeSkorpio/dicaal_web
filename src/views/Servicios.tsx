@@ -25,9 +25,9 @@ export default function Servicios() {
             <Service key={index} src={service.img} alt={service.alt} title={service.title} />
           ))}
       </section>
-      <section className="container m-auto mt-32">
-        <h2>{feature4.title}</h2>
-        <p>{feature4.text}<span className="font-bold">{feature4.span}</span>{feature4.text2}</p>
+      <section className="container m-auto mt-32 text-center">
+        <h2 className="mt-5 text-2xl text-[#0d497f]">{feature4.title}</h2>
+        <p className="mt-8">{feature4.text}<span className="font-bold">{feature4.span}</span>{feature4.text2}</p>
         <div className="container m-auto gap-10 flex-1 flex-wrap flex mt-10">
 
         {solutions.map((solution, index) => (
