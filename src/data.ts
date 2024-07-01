@@ -10,6 +10,22 @@ import iconFeature9 from '../src/assets/home/clock.svg'
 import imgC1 from '../src/assets/home/negocio.webp'
 import imgC2 from '../src/assets/home/hom_proyectos.webp'
 import imgC3 from '../src/assets/home/Hogar.webp'
+// Servicios
+import imgService1 from '../src/assets/servicios/Nacional.webp'
+import imgService2 from '../src/assets/servicios/Eurovent.webp'
+import imgService3 from '../src/assets/servicios/Española.webp'
+import imgService4 from '../src/assets/servicios/Puertas.webp'
+import imgService5 from '../src/assets/servicios/Techos.webp'
+import imgService6 from '../src/assets/servicios/Domos.webp'
+import imgService7 from '../src/assets/servicios/Oficina.webp'
+import imgService8 from '../src/assets/servicios/Comercial.webp'
+import imgService9 from '../src/assets/servicios/baño.webp'
+import imgService10 from '../src/assets/servicios/Barandales.webp'
+import imgService11 from '../src/assets/servicios/Pérgolas.webp'
+import imgSolution1 from '../src/assets/servicios/Laminado.webp'
+import imgSolution2 from '../src/assets/servicios/insulado.webp'
+import imgSolution3 from '../src/assets/servicios/Templado.webp'
+import imgSolution4 from '../src/assets/servicios/Películas.webp'
 //footer
 import LogoImgF from './assets/footer/WhiteDicaal.webp'
 import icoFoot1 from '../src/assets/footer/facebook.svg'
@@ -126,6 +142,108 @@ export const herrajes = {
     // image: Feature1Img,
   },
 }
+export const servicios = {
+  feature1: {
+    title: 'Nuestros Servicios',
+  },
+  feature2: {
+    title: 'Descubre el toque de excelencia en aluminio y vidrio para tus espacios. ',
+    text:
+      'te ofrecemos más que simples puertas y ventanas; te brindamos un mundo de posibilidades. Nuestro amplio portafolio de servicios abarca todo lo que necesitas para hacer de tu hogar, espacio de trabajo u oficina un lugar excepcional. Utilizamos materiales de primera calidad en cada proyecto, garantizando durabilidad y estilo incomparables.',
+    text2: 'Contamos con todas las líneas que puedas imaginar: desde la versatilidad nacional hasta la precisión europea y el encanto español.',
+    text3: 'Y porque sabemos que cada detalle cuenta, ofrecemos una paleta de colores diversa para que tu diseño interior sea perfecto. Desde tonos clásicos hasta audaces, tenemos el color ideal para cada espacio. Con nosotros transforma tus ambientes en obras de arte funcionales.',
+    text4: '¡Contáctanos y descubre cómo podemos hacer realidad tus ideas en aluminio y vidrio!'
+  },
+  feature3: {
+    services:  [
+      {
+        img: imgService1,
+        alt: 'imgService1',
+        title: 'Ventanas Línea Nacional',
+      },
+      {
+        img: imgService2,
+        alt: 'imgService2',
+        title: 'Ventanas Línea Eurovent',
+      },
+      {
+        img: imgService3,
+        alt: 'imgService3',
+        title: 'Ventanas Línea Española',
+      },
+      {
+        img: imgService4,
+        alt: 'imgService4',
+        title: 'Puertas',
+      },
+      {
+        img: imgService5,
+        alt: 'imgService5',
+        title: 'Techos',
+      },
+      {
+        img: imgService6,
+        alt: 'imgService6',
+        title: 'Domos',
+      },
+      {
+        img: imgService7,
+        alt: 'imgService7',
+        title: 'Cancelería de Oficina',
+      },
+      {
+        img: imgService8,
+        alt: 'imgService8',
+        title: 'Cancelería Comercial',
+      },
+      {
+        img: imgService9,
+        alt: 'imgService9',
+        title: 'Canceles para baño',
+      },
+      {
+        img: imgService10,
+        alt: 'imgService10',
+        title: 'Barandales',
+      },
+      {
+        img: imgService11,
+        alt: 'imgService11',
+        title: 'Pérgolas',
+      }
+    ]
+  },
+  feature4: {
+    title: 'En nuestro compromiso con la calidad y la seguridad',
+    text: 'Ofrecemos una amplia gama de',
+    span: 'soluciones en vidrio y películas de seguridad',
+    text2: 'para satisfacer las necesidades específicas de tu proyecto.',
+    solutions: [
+      {
+        img: imgSolution1,
+        alt: 'imgSolution1',
+        title: 'Ventanas Línea Nacional',
+      },
+      {
+        img: imgSolution2,
+        alt: 'imgSolution2',
+        title: 'Ventanas Línea Eurovent',
+      },
+      {
+        img: imgSolution3,
+        alt: 'imgSolution3',
+        title: 'Ventanas Línea Española',
+      },
+      {
+        img: imgSolution4,
+        alt: 'imgSolution4',
+        title: 'Puertas',
+      },
+    ]
+  }
+
+
+}
 
 export const homeCards = {
   title: 'Área de Actuación',
@@ -182,20 +300,8 @@ export const footer = {
   logoF: LogoImgF,
   dir: 'Mariano Zuñiga 113, Col. Hipico, Metepec, Estado de México',
   contacto: 'Tel.(720)296 4731 | dicaal.mx@gmail.com',
-  ico1: icoFoot1 ,
-  ico2:icoFoot2 ,
+  ico1: icoFoot1,
+  ico2: icoFoot2,
 
 };
-
-// export const copyright = {
-//   link: {
-//     name: 'Contáctanos',
-//     href: '#contacto',
-//   },
-//   copyText: 'Copyright @ 2023 Decofis',
-//   social: [
-//     { icon: FacebookIcon, href: 'https://www.facebook.com/profile.php?id=100064041577037' },
-//     { icon: WhatsAppIcon, href: 'https://wa.me/qr/TIL6M66BGOQ5H1' }
-//   ],
-// };
 
