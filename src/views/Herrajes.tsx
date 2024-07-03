@@ -1,5 +1,5 @@
 import { herrajes } from "../data"
-import Button from "./components/Button"
+// import Button from "./components/Button"
 import Hero from "./components/Hero"
 
 
@@ -15,7 +15,7 @@ export default function Herrajes() {
         <div className="space-y-4 flex items-center flex-col justify-center max-w-[620px]">
           <h1 className="text-4xl">{feature2.title}</h1>
           <p>{feature2.text}</p>
-          <Button href={feature2.href} name={feature2.btnLink} />
+          {/* <Button href={feature2.href} name={feature2.btnLink} /> */}
         </div>
         <div className="max-h-[690px] w-auto flex mt-5">
           <img className='lg:h-[240px]' src={feature2.image} alt={feature2.alt} />
@@ -28,7 +28,7 @@ export default function Herrajes() {
         <div className="space-y-4 flex items-center flex-col justify-center max-w-[620px]">
           <h1 className="text-4xl">{feature3.title}</h1>
           <p>{feature3.text}</p>
-          <Button href={feature3.href} name={feature3.btnLink} />
+          {/* <Button href={feature3.href} name={feature3.btnLink} /> */}
         </div>
       </section>
     </main>
