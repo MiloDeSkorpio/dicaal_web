@@ -23,6 +23,12 @@
   background-size: cover;
   height: 600px;
 }
+.heroNosotros {
+  background-image: url('assets/home/home_cali.webp');
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
 .heroServices {
   background-image: url('assets/servicios/hero_services.webp');
   background-position: center;

@@ -29,6 +29,10 @@ import imgSolution4 from '../src/assets/servicios/Películas.webp'
 // Herrajes
 import imgHerrajes1 from '../src/assets/herrajes/alum.webp'
 import imgHerrajes2 from '../src/assets/herrajes/vidr.webp'
+// Nosotros
+import imgUs1 from '../src/assets/nosotros/Misión.webp'
+import imgUs2 from '../src/assets/nosotros/Visión.webp'
+import imgUs3 from '../src/assets/nosotros/Valores.webp'
 //footer
 import LogoImgF from './assets/footer/WhiteDicaal.webp'
 import icoFoot1 from '../src/assets/footer/facebook.svg'
@@ -282,23 +286,29 @@ export const homeCards = {
 
 export const nostros = {
   title: 'Voz de nuestra Marca',
-  // img: LaboralImg,
+  cont: 'heroNosotros w-full',
   cards: [
     {
-      // img: ImGift,
+      img: imgUs1,
+      alt: 'imgMision',
       title: 'Misión',
-      p: 'Diseñar, fabricar y distribuir productos de cidrio y aluminio de vanguardia comprometidos con la sotenibilidad, la eficiencia y la satisfaccion del cliente impulsamos el desarrollo de nuestros colaboradores y contribuimos al progreso de las comunidades donde operamos promoviendo un entorno de trabajo seguro y etico.'
+      p: 'Diseñar, fabricar y distribuir productos de cidrio y aluminio de vanguardia comprometidos con la sotenibilidad, la eficiencia y la satisfaccion del cliente impulsamos el desarrollo de nuestros colaboradores y contribuimos al progreso de las comunidades donde operamos promoviendo un entorno de trabajo seguro y etico.',
+      class: 'flex-1 flex flex-col h-auto w-11/12 lg:max-w-5xl m-auto shadow-xl rounded-md bg-white overflow-hidden md:flex-row'
     },
     {
-      // img: ImGift,
+      img: imgUs2,
+      alt: 'imgVision',
       title: 'Visión',
-      p: 'Ser lideres en innovacion, tecnologica y excelencia en la industria del vidrio y aluminio, proporcionando soluciones de calidad que transformen los espacios y mejoren la vida de las personas.'
+      p: 'Ser lideres en innovacion, tecnologica y excelencia en la industria del vidrio y aluminio, proporcionando soluciones de calidad que transformen los espacios y mejoren la vida de las personas.',
+      class: 'flex-1 flex flex-col h-auto w-11/12 lg:max-w-5xl m-auto shadow-xl rounded-md bg-white overflow-hidden md:flex-row-reverse'
     },
     {
-      // img: ImGift,
+      img: imgUs3,
+      alt: 'imgValores',
       title: 'Valores',
       p: 'En DICAAL la calidad, la innovacion y el compromiso con la satisfaccion del cliente son nuestros valores fundamentales.',
-      p2: 'Descubre como podemos hacer realidad tus proyectos con excelencia y profesionalismo.'
+      p2: 'Descubre como podemos hacer realidad tus proyectos con excelencia y profesionalismo.',
+      class: 'flex-1 flex flex-col h-auto w-11/12 lg:max-w-5xl m-auto shadow-xl rounded-md bg-white overflow-hidden md:flex-row'
     },
 
   ],
