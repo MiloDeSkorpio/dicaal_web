@@ -132,8 +132,7 @@ export const herrajes = {
   feature1: {
     title: 'En DICAAL ofrecemos una gran variedad de herrajes para la venta al publico.',
     text: 'En nuestra coleccion de herrajes para aluminio y vidrio, encontraras soluciones excepcionales para tus proyectos, desde bisagras y soportes hasta sistemas de sujecion y cerraduras, cada uno de nuestros productos esta diseñado para ofrecer una combinacion perfecta de rendimiento confiable y elegancia moderna.',
-    cont: 'heroHerrajes w-full '
-
+    cont: 'heroHerrajes w-full'
   },
   feature2: {
     title: 'Herrajes de Aluminio',
@@ -253,13 +252,10 @@ export const servicios = {
       },
     ]
   }
-
-
 }
 
 export const homeCards = {
   title: 'Área de Actuación',
-  // img: ContableImg,
   cards: [
     {
       img: imgC1,
@@ -279,8 +275,6 @@ export const homeCards = {
       text: 'Nos especialozamos en crear un espacio innovador y acogedor para tu hogar desde ventaans hasta domos para brindar una mayor luminocidad en cada rincon.',
       alt: 'ImgHogar'
     },
-
-
   ],
 };
 
@@ -293,14 +287,14 @@ export const nostros = {
       alt: 'imgMision',
       title: 'Misión',
       p: 'Diseñar, fabricar y distribuir productos de cidrio y aluminio de vanguardia comprometidos con la sotenibilidad, la eficiencia y la satisfaccion del cliente impulsamos el desarrollo de nuestros colaboradores y contribuimos al progreso de las comunidades donde operamos promoviendo un entorno de trabajo seguro y etico.',
-      class: 'flex-1 flex flex-col h-auto w-11/12 lg:max-w-5xl m-auto shadow-xl rounded-md bg-white overflow-hidden md:flex-row'
+      class: 'md:flex-row'
     },
     {
       img: imgUs2,
       alt: 'imgVision',
       title: 'Visión',
       p: 'Ser lideres en innovacion, tecnologica y excelencia en la industria del vidrio y aluminio, proporcionando soluciones de calidad que transformen los espacios y mejoren la vida de las personas.',
-      class: 'flex-1 flex flex-col h-auto w-11/12 lg:max-w-5xl m-auto shadow-xl rounded-md bg-white overflow-hidden md:flex-row-reverse'
+      class: 'md:flex-row-reverse'
     },
     {
       img: imgUs3,
@@ -308,9 +302,8 @@ export const nostros = {
       title: 'Valores',
       p: 'En DICAAL la calidad, la innovacion y el compromiso con la satisfaccion del cliente son nuestros valores fundamentales.',
       p2: 'Descubre como podemos hacer realidad tus proyectos con excelencia y profesionalismo.',
-      class: 'flex-1 flex flex-col h-auto w-11/12 lg:max-w-5xl m-auto shadow-xl rounded-md bg-white overflow-hidden md:flex-row'
+      class: 'md:flex-row'
     },
-
   ],
 };
 
