@@ -33,6 +33,16 @@ import imgHerrajes2 from '../src/assets/herrajes/vidr.webp'
 import imgUs1 from '../src/assets/nosotros/Misión.webp'
 import imgUs2 from '../src/assets/nosotros/Visión.webp'
 import imgUs3 from '../src/assets/nosotros/Valores.webp'
+// Proyectos
+import imgProy1 from '../src/assets/proyectos/Carbajal Educación/2 (1).png'
+import imgProy2 from '../src/assets/proyectos/Carbajal Educación/2.png'
+import imgProy3 from '../src/assets/proyectos/Carbajal Educación/3.png'
+import imgProy4 from '../src/assets/proyectos/Carbajal Educación/4.png'
+import imgProy5 from '../src/assets/proyectos/Carbajal Educación/5.png'
+import imgProy6 from '../src/assets/proyectos/Carbajal Educación/6.png'
+import imgProy7 from '../src/assets/proyectos/Carbajal Educación/7.png'
+import imgProy8 from '../src/assets/proyectos/Carbajal Educación/8.png'
+import imgProy9 from '../src/assets/proyectos/Carbajal Educación/9.png'
 //footer
 import LogoImgF from './assets/footer/WhiteDicaal.webp'
 import icoFoot1 from '../src/assets/footer/facebook.svg'
@@ -43,6 +53,44 @@ import icoFoot2 from '../src/assets/footer/instagram.svg'
 // import WhatsAppIcon from '../src/assets/img/copyright/whatsapp.svg';
 // import ContactImg from '../src/assets/img/form/contact.svg';
 // import ContableImg from '../src/assets/img/product/contable.svg'
+
+export const proyectos = {
+  pro1: {
+    title: 'Carbajal Educación',
+    dir1: 'Tultitlan, Estado de México',
+    details: 'Instalación total 270 m2. Líneas montadas: Nacional 3", Eurovent S50, Eurovent S70.',
+    imagenes: [
+      {
+        img: imgProy1
+      },
+      {
+        img: imgProy2
+      },
+      {
+        img: imgProy3
+      },
+      {
+        img: imgProy4
+      },
+      {
+        img: imgProy5
+      },
+      {
+        img: imgProy6
+      },
+      {
+        img: imgProy7
+      },
+      {
+        img: imgProy8
+      },
+      {
+        img: imgProy9
+      },
+    ]
+
+  }
+}
 
 export const header = {
   logo: LogoImg,
@@ -166,7 +214,7 @@ export const servicios = {
     text4: '¡Contáctanos y descubre cómo podemos hacer realidad tus ideas en aluminio y vidrio!'
   },
   feature3: {
-    services:  [
+    services: [
       {
         img: imgService1,
         alt: 'imgService1',
@@ -316,3 +364,10 @@ export const footer = {
 
 };
 
+export const contacto = {
+  hero: {
+    title: 'Contáctenos',
+    cont: 'heroContacto w-full'
+  },
+
+}
