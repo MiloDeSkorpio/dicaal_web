@@ -34,15 +34,33 @@ import imgUs1 from '../src/assets/nosotros/Misión.webp'
 import imgUs2 from '../src/assets/nosotros/Visión.webp'
 import imgUs3 from '../src/assets/nosotros/Valores.webp'
 // Proyectos
-import imgProy1 from '../src/assets/proyectos/Carbajal Educación/2 (1).png'
-import imgProy2 from '../src/assets/proyectos/Carbajal Educación/2.png'
-import imgProy3 from '../src/assets/proyectos/Carbajal Educación/3.png'
-import imgProy4 from '../src/assets/proyectos/Carbajal Educación/4.png'
-import imgProy5 from '../src/assets/proyectos/Carbajal Educación/5.png'
-import imgProy6 from '../src/assets/proyectos/Carbajal Educación/6.png'
-import imgProy7 from '../src/assets/proyectos/Carbajal Educación/7.png'
-import imgProy8 from '../src/assets/proyectos/Carbajal Educación/8.png'
-import imgProy9 from '../src/assets/proyectos/Carbajal Educación/9.png'
+import imgProy1_1 from '../src/assets/proyectos/Carbajal Educación/2.png'
+import imgProy1_2 from '../src/assets/proyectos/Carbajal Educación/3.png'
+import imgProy1_3 from '../src/assets/proyectos/Carbajal Educación/4.png'
+import imgProy1_4 from '../src/assets/proyectos/Carbajal Educación/5.png'
+import imgProy1_5 from '../src/assets/proyectos/Carbajal Educación/6.png'
+import imgProy1_6 from '../src/assets/proyectos/Carbajal Educación/7.png'
+import imgProy1_7 from '../src/assets/proyectos/Carbajal Educación/8.png'
+import imgProy1_8 from '../src/assets/proyectos/Carbajal Educación/9.png'
+import imgProy1_9 from '../src/assets/proyectos/Carbajal Educación/10.png'
+import imgProy1_10 from '../src/assets/proyectos/Carbajal Educación/11.png'
+// proy 2
+import imgProy2_1 from '../src/assets/proyectos/Carbajal Empaques/1.png'
+import imgProy2_2 from '../src/assets/proyectos/Carbajal Empaques/2.png'
+import imgProy2_3 from '../src/assets/proyectos/Carbajal Empaques/3.png'
+import imgProy2_4 from '../src/assets/proyectos/Carbajal Empaques/5.png'
+import imgProy2_5 from '../src/assets/proyectos/Carbajal Empaques/6.png'
+import imgProy2_6 from '../src/assets/proyectos/Carbajal Empaques/7.png'
+import imgProy2_7 from '../src/assets/proyectos/Carbajal Empaques/8.png'
+import imgProy2_8 from '../src/assets/proyectos/Carbajal Empaques/10.png'
+import imgProy2_9 from '../src/assets/proyectos/Carbajal Empaques/11.png'
+import imgProy2_10 from '../src/assets/proyectos/Carbajal Empaques/14.png'
+import imgProy2_11 from '../src/assets/proyectos/Carbajal Empaques/15.png'
+
+import imgProy3_1 from '../src/assets/proyectos/Otros Proyectos/1.png'
+import imgProy3_2 from '../src/assets/proyectos/Otros Proyectos/2.png'
+import imgProy3_3 from '../src/assets/proyectos/Otros Proyectos/3.png'
+
 //footer
 import LogoImgF from './assets/footer/WhiteDicaal.webp'
 import icoFoot1 from '../src/assets/footer/facebook.svg'
@@ -55,40 +73,53 @@ import icoFoot2 from '../src/assets/footer/instagram.svg'
 // import ContableImg from '../src/assets/img/product/contable.svg'
 
 export const proyectos = {
+  cont: 'heroProyectos w-full',
+  title: "Proyectos",
   pro1: {
     title: 'Carbajal Educación',
     dir1: 'Tultitlan, Estado de México',
     details: 'Instalación total 270 m2. Líneas montadas: Nacional 3", Eurovent S50, Eurovent S70.',
     imagenes: [
-      {
-        img: imgProy1
-      },
-      {
-        img: imgProy2
-      },
-      {
-        img: imgProy3
-      },
-      {
-        img: imgProy4
-      },
-      {
-        img: imgProy5
-      },
-      {
-        img: imgProy6
-      },
-      {
-        img: imgProy7
-      },
-      {
-        img: imgProy8
-      },
-      {
-        img: imgProy9
-      },
+      imgProy1_1,
+      imgProy1_2,
+      imgProy1_3,
+      imgProy1_4,
+      imgProy1_5,
+      imgProy1_6,
+      imgProy1_7,
+      imgProy1_8,
+      imgProy1_9,
+      imgProy1_10,
     ]
+  },
+  pro2: {
+    title: 'Carbajal Empaques',
+    dir1: 'Bosques de las Lomas, Ciudad de México',
+    details: 'Instalación total 180 m2. Líneas montadas: Nacional 3", Eurovent S50, Eurovent S70.',
+    imagenes: [
+      imgProy2_1,
+      imgProy2_2,
+      imgProy2_3,
+      imgProy2_4,
+      imgProy2_5,
+      imgProy2_6,
+      imgProy2_7,
+      imgProy2_8,
+      imgProy2_9,
+      imgProy2_10,
+      imgProy2_11,
+    ]
+  },
+  pro3: {
+    title: 'Otros Proyectos',
+    dir1: '',
+    details: '',
+    imagenes: [
+      imgProy3_1,
+      imgProy3_2,
+      imgProy3_3,
 
+    ]
   }
 }
 
